@@ -1,0 +1,72 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    width: 384px;
+    height: 522px;
+    margin: 0 auto;
+    padding: 24px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: black 15px 1px 1px;
+}
+
+.card_container{
+    width: 100%;
+}
+.illustration-article{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.date{
+    font-size: 14px;
+}
+
+h1{
+    font-size: 24px;
+    margin: auto;
+}
+
+.body_text{
+    font-size: 16px;
+    color: hsl(0, 0%, 50%);
+    line-height: 1.75rem;
+}
+
+.tag{
+    font-size: 14px;
+    font-weight: bold;
+    background-color: hsl(47, 88%, 63%);
+    width: fit-content;
+    padding: 4px 12px;
+    border-radius: 4px;
+}
+
+.card_info{
+    margin: 24px auto;
+    width: 336px;
+}
+
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.image-avatar{
+    height: 32px;
+    width: 32px;
+}
+
+.user_name{
+    font-weight: bold;
+    font-size: 14px;
+}
